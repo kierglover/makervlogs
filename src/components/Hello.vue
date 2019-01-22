@@ -1,6 +1,7 @@
 <template>
   <div class="container" id="hero">
     <h1>Welcome to 🎥 Makervlogs</h1>
+    <p class="lead">Makervlogs helps fellow indie makers learn, grow and and make it happen with jighly curated Makervlogs!</p>
     <p></p>
   </div>
 </template>
