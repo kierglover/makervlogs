@@ -3,6 +3,10 @@
 // This is done with the browser options. For the config, see package.json
 import Vue from 'vue'
 import App from './App.vue'
+import cssify from 'cssify'
+import Sass from 'sass'
+
+cssify.byUrl('https://unpkg.com/sakura.css/css/sakura.css')
 
 new Vue({ // eslint-disable-line no-new
   el: '#app',
