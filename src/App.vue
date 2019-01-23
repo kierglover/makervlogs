@@ -20,8 +20,19 @@ export default {
 
 <style lang="sass">
 
-.lead {
-  font-size: 1.5em;
+body {
+  max-width: 100vw!important;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 </style>
